@@ -1,5 +1,4 @@
 import schema from 'async-validator';
-import { resolve } from 'dns';
 
 function handleValidate(rules, source: object) {
   return new Promise((resolve, reject) => {
